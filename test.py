@@ -1,7 +1,12 @@
-arr = [1,2,3,4,5]
+n = int(input())
+arr = []
+for i in range(n):
+    value = int(input())
+    arr.append(value)
 
-rev_arr =[]
+smallest = arr[0]
 
-for i in range(len(arr)-1,-1,-1):
-    rev_arr.append(arr[i])
-print(rev_arr)
+for num in arr:
+    if num<smallest:
+        smallest = num
+print(smallest)
