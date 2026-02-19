@@ -1,6 +1,7 @@
-n = int(input("Enter n:"))
-sum = 0
-for i in range(n+1):
-    sum = sum + i
-print(sum)
-    
+arr = [1,2,3,4,5]
+
+rev_arr =[]
+
+for i in range(len(arr)-1,-1,-1):
+    rev_arr.append(arr[i])
+print(rev_arr)
