@@ -1,12 +1,5 @@
-n = int(input())
-arr = []
-for i in range(n):
-    value = int(input())
-    arr.append(value)
-
-smallest = arr[0]
-
-for num in arr:
-    if num<smallest:
-        smallest = num
-print(smallest)
+arr = list(map(int, input("Enter Array Elements: ").split()))
+sum = 0
+for i in arr:
+    sum = sum + i
+print(sum)
