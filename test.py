@@ -1,5 +1,7 @@
-arr = list(map(int, input("Enter Array Elements: ").split()))
-sum = 0
-for i in arr:
-    sum = sum + i
-print(sum)
+arr = list(map(int, input("Enter a array: ").split()))
+
+rev= []
+for i in range(len(arr)-1,-1,-1):
+    rev.append(arr[i])
+print(rev)
+
