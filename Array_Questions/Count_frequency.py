@@ -1,11 +1,12 @@
-arr = list(map(int, input("Enter values:").split()))
+arr = list(map(int, input().split()))
 
 freq = {}
 
 for num in arr:
     if num in freq:
-        freq += 1
+        freq[num] += 1
     else:
-        freq = 1
-for key in freq:
-    print(key, freq[key])
+        freq[num] = 1
+
+for key, value in freq.items():
+    print(key, value)
