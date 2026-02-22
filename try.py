@@ -1,12 +1,10 @@
-arr = list(map(int, input().split()))
+if __name__ == '__main__':
+    n = int(input())
+    i=-1
+    while(i<=n):
+        print(i*i)
+        i = i+1
 
-freq = {}
-
-for num in arr:
-    if num in freq:
-        freq[num] += 1
-    else:
-        freq[num] = 1
-
-for key, value in freq.items():
-    print(key, value)
+            
+        
+                
