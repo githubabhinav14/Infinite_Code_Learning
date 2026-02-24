@@ -6,6 +6,3 @@ for i in n:
     else:
         res += i
 print(res)
-
-
-
