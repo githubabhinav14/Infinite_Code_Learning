@@ -1,10 +1,8 @@
-if __name__ == '__main__':
-    n = int(input())
-    i=-1
-    while(i<=n):
-        print(i*i)
-        i = i+1
+n =int(input("Enter N:"))
+arr = list(map(int, input("Enter Array Values: ").split()))
 
-            
-        
-                
+excepted = n*(n+1)//2
+actual = sum(arr)
+
+print("missing number is:", excepted - actual)
+
