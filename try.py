@@ -1,11 +1,7 @@
-n =input()
-res = ""
-for i in n:
-    if i.lower() in "aeiou":
-        res += "*"
-    else:
-        res += i
-print(res)
+nums = [2,7,11,15]
+target = 18
+for i in nums:
+    for j in nu
 
 
-
+    
